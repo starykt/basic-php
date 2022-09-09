@@ -8,6 +8,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <title>Cadastro de Gastos</title>
 
+  <style>
+    body {
+      background-color: #f2f2f2;
+    };
+  </style>
+
 </head>
 
 <body>
@@ -19,6 +25,15 @@
     resultado do IMC está entre 18,5 e 24,9.  -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://i.pinimg.com/564x/43/f5/8c/43f58c382fd023bf457f8d05a45e1bb8.jpg" alt="" width="120" height="96" class="d-inline-block align-text-center">
+        Saúde e Cuidado
+      </a>
+    </div>
+  </nav>
+  
   <div class="container">
     <div class="row">
       <div class="col-6">
@@ -109,10 +124,10 @@
           </div>
         </div>
       </div>
-      <div class="col-1">
+      <div class="col-2">
 
       </div>
-      <div class="col-5">
+      <div class="col-4">
         <h2>O que é IMC?</h2>
         <h4>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal
           conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. 
