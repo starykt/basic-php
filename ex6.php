@@ -8,11 +8,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <title>Cadastro de Gastos</title>
 
-  <style>
-    .select {
-      background-color: lime;
-    }
-  </style>
 </head>
 
 <body>
@@ -70,7 +65,7 @@
                 <tbody>
                   <tr <?php
                       if (($imc > 0) && ($imc < 18.5))
-                        echo "class='select'";
+                        echo "class='table-info'";
                     ?>>
                     <th>Menor que 18,5</th>
                     <td>Magreza</td>
@@ -78,7 +73,7 @@
                   </tr>
                   <tr <?php
                       if (($imc >= 18.5) && ($imc <= 24.9))
-                        echo "class='select'";
+                        echo "class='table-info'";
                     ?>>
                     <th>Entre 18,5 e 24,9</th>
                     <td>Normal</td>
@@ -86,7 +81,7 @@
                   </tr>
                   <tr <?php
                       if (($imc >= 25) && ($imc <= 29.9))
-                        echo "class='select'";
+                        echo "class='table-info'";
                     ?>>
                     <th>Entre 25,0 e 29,9	</th>
                     <td>Sobrepeso</td>
@@ -94,7 +89,7 @@
                   </tr>
                   <tr <?php
                       if (($imc >= 30) && ($imc <= 39.9))
-                        echo "class='select'";
+                        echo "class='table-info'";
                     ?>>
                     <th>Entre 30,0 e 39,9</th>
                     <td>Obesidade</td>
@@ -102,7 +97,7 @@
                   </tr>
                   <tr <?php
                       if (($imc >= 40))
-                        echo "class='select'";
+                        echo "class='table-info'";
                     ?>>
                     <th>Maior que 40,0</th>
                     <td>Obesidade Grave</td>
